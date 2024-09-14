@@ -35,3 +35,19 @@ cd SEU_REPOSITORIO
    ```
 ## Testando a API
 Você pode testar a API usando Postman ou qualquer outra ferramenta de API. 
+### PUT e GET para Pessoa e Conta
+
+![2024-09-1414-50-18-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/98849970-5b3b-4234-a31a-9ea84ed4218d)
+
+### Realizando saque
+Sacando um valor de uma conta com saldo
+
+
+
+![2024-09-1415-13-57-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/eb7db564-aeec-455c-ae11-53b2497958dc)
+
+### Realizando transferência
+Abaixo demonstro uma transferência de uma conta para outra
+
+
+![2024-09-1415-17-56-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1d65b4a6-3fe9-44bc-a394-fcfc7a94ae99)
