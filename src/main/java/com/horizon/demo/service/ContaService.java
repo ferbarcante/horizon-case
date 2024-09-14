@@ -23,6 +23,22 @@ public class ContaService {
         return contaNova;
     }
 
+    public void sacar(UUID idConta, double valor){
+        Conta conta = contaRepository.findById(idConta)
+                .orElseThrow(() -> new RuntimeException("Conta não encontrada"));
+
+        if (valor <= 0) {
+            throw new RuntimeException("O valor do saque deve ser positivo");
+        }
+
+        if (conta.getSaldo() < valor) {
+            throw new RuntimeException("Saldo insuficiente para realizar o saque");
+        }
+
+        conta.setSaldo(conta.getSaldo() - valor);
+        contaRepository.save(conta);
+    }
+
     public Conta atualizar(Conta conta){
         return contaRepository.save(conta);
     }

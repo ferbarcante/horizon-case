@@ -6,6 +6,7 @@ import lombok.Data;
 
 import java.util.UUID;
 
+
 @Entity
 @Table(name = "contas")
 @Data
@@ -21,4 +22,12 @@ public class Conta {
     @ManyToOne
     @JoinColumn(name = "fk_id_pessoa")
     private Pessoa pessoa;
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 }

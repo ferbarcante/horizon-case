@@ -26,6 +26,11 @@ public class ContaController {
         return contaService.inserir(conta);
     }
 
+    @PostMapping("/{id}")
+    public void sacar(@PathVariable UUID id, @RequestParam double valor) {
+        contaService.sacar(id, valor);
+    }
+
     @PutMapping("/")
     public Conta atualizar(@RequestBody Conta conta){
         return contaService.atualizar(conta);
