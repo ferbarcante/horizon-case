@@ -16,7 +16,7 @@ Clone este repositório para sua máquina local usando o Git:
 
 ```bash
 git clone https://github.com/ferbarcante/horizon-case.git
-cd SEU_REPOSITORIO
+cd horizon-case
 ```
 ## Banco de dados
 1. Crie o banco de dados
