@@ -15,7 +15,7 @@ Antes de começar, certifique-se de ter os seguintes softwares instalados:
 Clone este repositório para sua máquina local usando o Git:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/ferbarcante/horizon-case.git
 cd SEU_REPOSITORIO
 ```
 ## Banco de dados
